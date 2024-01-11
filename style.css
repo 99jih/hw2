@@ -6,7 +6,7 @@ body {
 }
   
 #app {
-    max-width: 800px;
+    max-width: 1000px;
     margin: 0 auto;
     padding: 20px;
 }
@@ -98,7 +98,7 @@ body {
 }
 
 .todo-checkbox:checked + .todo-text {
-    text-decoration: line-through; /* 체크박스 선택 시 텍스트에 취소선 추가 */
+    text-decoration: line-through; 
 }
 
 .edit-btn, .delete-btn {

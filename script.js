@@ -18,7 +18,6 @@ document.addEventListener('DOMContentLoaded', () => {
             inputField.value = '';
             loadTodos();
         }
-        todoInputContainer.classList.add('hidden');
     });
 
     function loadTodos() {
